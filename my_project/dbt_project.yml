@@ -40,3 +40,11 @@ models:
       +materialized: table
       +schema: analytics
       +database: store
+    stg_order_details:
+      +materialized: table
+      +schema: analytics
+      +database: store
+    fct_per_brand_daily_sales:
+      +materialized: table
+      +schema: analytics
+      +database: store
